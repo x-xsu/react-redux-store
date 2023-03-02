@@ -38,7 +38,9 @@ export function ProductCard({ product }: ProductProps) {
 
       <div className={styles.category}>{product.category}</div>
 
-      <div className={styles.title}>{product.title}</div>
+      <div className={styles.title} onClick={clickHandler}>
+        {product.title}
+      </div>
 
       <div className={styles.bottom}>
         <div className={styles.price}>$ {product.price}</div>
