@@ -1,0 +1,11 @@
+@import '/src/styles/variables';
+@import '/src/styles/mixins';
+
+.loader {
+  @extend %flex-element-center;
+
+  svg {
+    fill: $cl-primary;
+    width: 100px;
+  }
+}

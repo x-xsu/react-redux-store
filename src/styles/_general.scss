@@ -1,0 +1,116 @@
+@import '/src/styles/variables';
+@import '/src/styles/mixins';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font: 400 16px/20px 'Poppins', sans-serif;
+  color: $cl-primary;
+}
+
+section {
+  margin: 60px 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $cl-primary;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 45px;
+}
+
+h2 {
+  font-size: 26px;
+  line-height: 39px;
+  margin-bottom: 32px;
+}
+
+input {
+  width: 100%;
+  padding: 0;
+  border: 0;
+  outline: none;
+
+  ::-webkit-input-placeholder {
+    color: $cl-primary-b;
+  }
+
+  :-moz-placeholder {
+    color: $cl-primary-b;
+  }
+
+  ::-moz-placeholder {
+    color: $cl-primary-b;
+  }
+
+  :-ms-input-placeholder {
+    color: $cl-primary-b;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  @media (max-width: $lg) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.btn {
+  @extend %flex-element-center;
+  gap: 8px;
+  height: 36px;
+  border-radius: $br;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 600;
+  padding: 0 10px;
+  transition: all $duration;
+  border: 2px solid;
+
+  @include button-bg($cl-secondary);
+
+  svg {
+    height: 20px;
+    transition: all $duration;
+  }
+}
+
+.btnBorder {
+  @include button-bg(transparent, $cl-secondary-c, $cl-primary);
+}

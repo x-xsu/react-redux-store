@@ -1,0 +1,9 @@
+@import '/src/styles/variables';
+@import '/src/styles/mixins';
+
+.category {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 25px 0;
+}

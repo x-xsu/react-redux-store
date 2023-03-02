@@ -1,0 +1,35 @@
+@import '/src/styles/variables';
+@import '/src/styles/mixins';
+
+.actions {
+  @extend %flex-element-center;
+  gap: 30px;
+}
+
+.item {
+  display: flex;
+
+  svg {
+    @extend %icon-size;
+
+    &.iconFav,
+    &.iconCart {
+      stroke: $cl-secondary;
+    }
+  }
+
+  &:hover {
+    svg {
+      &.iconFav {
+        stroke: $cl-red;
+        fill: $cl-red;
+      }
+    }
+  }
+
+  @media (max-width: $lg) {
+    svg {
+      margin: 0;
+    }
+  }
+}

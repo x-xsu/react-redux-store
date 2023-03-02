@@ -1,0 +1,26 @@
+@mixin button-bg($bg, $border: $cl-secondary, $txt-color: #ffffff) {
+  background: $bg;
+  color: $txt-color;
+  border-color: $border;
+
+  &:hover {
+    background: darken($bg, 8%);
+    border-color: darken($border, 8%);
+  }
+
+  svg {
+    @extend %icon-size;
+    stroke: $txt-color;
+  }
+}
+
+%flex-element-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+%icon-size {
+  width: 24px;
+  height: 24px;
+}

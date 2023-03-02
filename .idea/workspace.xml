@@ -5,12 +5,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2357831c-a88f-4f26-bcff-cf01a8d617e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svg/cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svg/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svg/like.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svg/loader.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svg/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svg/loupe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svg/star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/axios/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Actions/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Actions/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ErrorMessage/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ErrorMessage/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Layout/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Layout/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Loader/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Loader/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductCard/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductCard/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductDetail/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductDetail/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductsCategory/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductsCategory/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductsFilter/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductsFilter/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductsList/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductsList/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductsSearch/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductsSearch/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/debounce.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/input.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/redux.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/models.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Cart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/FavouritesPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MainPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ProductDetailPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/ActionCreator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/slices/ProductSlice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/_general.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierignore" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +85,12 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/frontend/projects/react-app/src/components&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -51,6 +104,18 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\frontend\projects\react-app\src\components" />
+      <recent name="D:\frontend\projects\react-app\src" />
+      <recent name="D:\frontend\projects\react-app\src\hooks" />
+      <recent name="D:\frontend\projects\react-app\src\store" />
+      <recent name="D:\frontend\projects\react-app\src\pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\frontend\projects\react-app\src\models" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -97,9 +162,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
-        <item itemvalue="npm.lint:fix" />
         <item itemvalue="npm.lint:format" />
+        <item itemvalue="npm.lint:fix" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -112,7 +177,9 @@
       <option name="presentableId" value="Default" />
       <updated>1677481174465</updated>
       <workItem from="1677481175760" duration="10539000" />
-      <workItem from="1677569157982" duration="2892000" />
+      <workItem from="1677569157982" duration="13569000" />
+      <workItem from="1677656753326" duration="6667000" />
+      <workItem from="1677759552743" duration="7634000" />
     </task>
     <servers />
   </component>
